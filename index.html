@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="base1"></div>
+      <div class="base2"></div>
+      <div class="base3"></div>
+      <div class="base4"></div>
+
+      <div class="candle"></div>
+      <div class="flame"></div>
+
+      <div class="holder1"></div>
+      <div class="holder2"></div>
+      <div class="holder3"></div>
+      <div class="holder4"></div>
+
+      <div class="decoration1"></div>
+      <div class="decoration2"></div>
+      <div class="decoration3"></div>
+      <div class="decoration4"></div>
+      <div class="decoration5"></div>
+      <div class="decoration6"></div>
+      <div class="decoration7"></div>
+      <div class="decoration8"></div>
+      <div class="decoration9"></div>
+      <div class="decoration10"></div>
+      <div class="decoration11"></div>
+      <div class="decoration12"></div>
+      <div class="decoration13"></div>
+      <div class="decoration14"></div>
+      <div class="decoration15"></div>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(14, 13, 43);
+      }
+
+      .container {
+        position: relative;
+      }
+
+      .base1 {
+        position: absolute;
+        overflow: hidden;
+        width: 400px;
+        height: 95px;
+        top: 350px;
+        left: 150px;
+        background-color: rgb(255, 0, 234);
+        border-radius: 30px 30px 0 0;
+      }
+
+      .base2 {
+        position: absolute;
+        overflow: hidden;
+        width: 300px;
+        height: 75px;
+        top: 275px;
+        left: 200px;
+        background-color: rgb(255, 31, 162);
+        border-radius: 30px 30px 0 0;
+      }
+
+      .base3 {
+        position: absolute;
+        overflow: hidden;
+        width: 200px;
+        height: 60px;
+        top: 215px;
+        left: 247px;
+        background-color: rgb(255, 0, 234);
+        border-radius: 20px 20px 0 0;
+      }
+
+      .base4 {
+        position: absolute;
+        overflow: hidden;
+        width: 140px;
+        height: 50px;
+        top: 165px;
+        left: 275px;
+        background-color: rgb(255, 31, 162);
+        border-radius: 20px 20px 0 0;
+      }
+
+      .candle {
+        position: absolute;
+        overflow: hidden;
+        width: 18px;
+        height: 50px;
+        top: 115px;
+        left: 338px;
+        background-color: rgb(117, 255, 5);
+        border-radius: 20px 20px 0 0;
+      }
+
+      .flame {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        top: 95px;
+        left: 334px;
+        background-color: rgb(255, 251, 0);
+        border-radius: 0 50% 50% 50%;
+        transform: rotate(45deg);
+        box-shadow: 0 0 15px 5px rgb(255, 255, 163);
+        animation: glow 2s infinite;
+      }
+
+      @keyframes glow {
+        50% {
+          box-shadow: 0 0 5px 0 yellow;
+          top: 100px;
+        }
+      }
+
+      .holder1 {
+        position: absolute;
+        width: 570px;
+        height: 30px;
+        left: 65px;
+        top: 445px;
+        background-color: wheat;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .holder2 {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 100px solid wheat;
+        border-left: 100px solid transparent;
+        left: 245px;
+        top: 475px;
+      }
+
+      .holder3 {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 100px solid wheat;
+        border-right: 100px solid transparent;
+        left: 345px;
+        top: 475px;
+      }
+
+      .holder4 {
+        position: absolute;
+        width: 270px;
+        height: 30px;
+        left: 210px;
+        top: 550px;
+        background-color: wheat;
+        border-radius: 20px 20px 0 0;
+      }
+
+      .decoration1 {
+        position: absolute;
+        top: 430px;
+        left: 150px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration2 {
+        position: absolute;
+        top: 430px;
+        left: 200px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration3 {
+        position: absolute;
+        top: 430px;
+        left: 250px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration4 {
+        position: absolute;
+        top: 430px;
+        left: 300px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration5 {
+        position: absolute;
+        top: 430px;
+        left: 350px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration6 {
+        position: absolute;
+        top: 430px;
+        left: 400px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration7 {
+        position: absolute;
+        top: 430px;
+        left: 450px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration8 {
+        position: absolute;
+        top: 430px;
+        left: 500px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration9 {
+        position: absolute;
+        top: 430px;
+        left: 550px;
+        transform: translate(-50%, -50%);
+        height: 35px;
+        width: 50px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration10 {
+        position: absolute;
+        top: 263px;
+        left: 251px;
+        transform: translate(-50%, -50%);
+        height: 25px;
+        width: 40px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration11 {
+        position: absolute;
+        top: 263px;
+        left: 291px;
+        transform: translate(-50%, -50%);
+        height: 25px;
+        width: 40px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration12 {
+        position: absolute;
+        top: 263px;
+        left: 331px;
+        transform: translate(-50%, -50%);
+        height: 25px;
+        width: 40px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration13 {
+        position: absolute;
+        top: 263px;
+        left: 371px;
+        transform: translate(-50%, -50%);
+        height: 25px;
+        width: 40px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration14 {
+        position: absolute;
+        top: 263px;
+        left: 410px;
+        transform: translate(-50%, -50%);
+        height: 25px;
+        width: 40px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+
+      .decoration15 {
+        position: absolute;
+        top: 263px;
+        left: 448px;
+        transform: translate(-50%, -50%);
+        height: 25px;
+        width: 40px;
+        border-radius: 150px 150px 0 0;
+        background-color: rgb(0, 255, 0);
+      }
+    </style>
+  </body>
+</html>
